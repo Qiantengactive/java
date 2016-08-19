@@ -4,7 +4,7 @@ public class Formatting_Array {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-//%f 格式化浮点类型数据
+//      %f 格式化浮点类型数据
 //		%d 格式化整数类型的数据
 //		%s 格式化字符串类型的数据
 //		%c 可以格式化字符串类型的数据
@@ -13,7 +13,7 @@ public class Formatting_Array {
 			//格式转化
 			 float fnum1=3.141592654653464643f; 
 			 int number=1234;
-			 System.out.printf("bnumber=%8d,%f",number,fnum1);    
+			 System.out.printf("bnumber=%8,%f",number,fnum1);    
 			//(bnumber=    1234,3.141593)
 			 System.out.printf("bnumber=%8d,%f",number,fnum1);    
 			//(abnumber=    1234,3.141593)
